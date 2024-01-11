@@ -4,7 +4,7 @@ import pickle
 #Create App
 app = Flask(__name__)
 
-# Load the trained model and column transformer
+# Load the trained model and column transformer in app
 def prediction_input_data(input_df):
     vc=pickle.load(open("model.pkl","rb"))
 
