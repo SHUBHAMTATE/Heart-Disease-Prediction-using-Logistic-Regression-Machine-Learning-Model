@@ -2,6 +2,7 @@ from flask import Flask, render_template, request
 import pandas as pd
 import pickle
 #Create App
+
 app = Flask(__name__)
 
 # Load the trained model and column transformer in app
